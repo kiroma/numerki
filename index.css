@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    width: 70%;
+    float: right;
+    background-color: #642323;
+    color: cadetblue;
+}
+
+h1 {
+    color: aqua;
+    padding: 1%;
+}
