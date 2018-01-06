@@ -69,15 +69,6 @@ for (var i = 0; i < 6; i++) // Tworzymy pętlę która stworzy tablicę z losowy
 
 var hits = countdoubles(user, results); // Sprawdzamy ile trafień ma użytkownik.
 
-/*
-document.write("Wprowadzone liczby to: ") // Wypisujemy to całe bagno
-for (var i = 0; i < user.length; i++)
-    document.write(user[i] + " ");
-document.write("<br> Wylosowane liczby to: ")
-for (var i = 0; i < results.length; i++)
-    document.write(results[i] + " ");
-document.write("<br> Trafiono " + hits + " liczb.");
-*/
 user.sort(function (a, b) {return a - b});  // Sortujemy liczby, używamy specjalnego kodu żeby porównać liczby które są stringami
 
 results.sort(function (a, b) {return a - b});
